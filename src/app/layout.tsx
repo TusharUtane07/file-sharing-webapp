@@ -30,7 +30,7 @@ export default function RootLayout({
 				<link rel="shortcut icon" href="file-sharing.png" type="image/x-icon" />
 			</head>
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-7xl mx-auto bg-gray-900 text-gray-50`}>
+				className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-7xl mx-auto bg-gray-900 text-gray-50 `}>
 				<Header />
 				{children}
 			</body>

@@ -13,9 +13,11 @@ const Header = () => {
 
 	return (
 		<>
-			<div className="mx-auto max-w-7xl flex justify-between py-6 px-5 sticky left-auto z-20 w-full  top-0">
+			<div className="mx-auto max-w-7xl bg-gray-900 flex justify-between py-6 px-5 sticky left-auto z-20 w-full  top-0">
 				<div className="font-semibold text-xl md:text-2xl">
-					<Link href={"/"}>File Stash</Link>
+					<Link href={"/"} className="text-indigo-500">
+						File Stash
+					</Link>
 				</div>
 				<div className="hidden lg:flex items-center gap-8 font-medium">
 					<div>
