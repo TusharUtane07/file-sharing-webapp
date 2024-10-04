@@ -1,7 +1,7 @@
 const Hero = () => {
 	return (
 		<section>
-			<div className="mx-auto max-w-screen-xl my-auto px-4 h-[80vh] flex justify-center items-center">
+			<div className="mx-auto max-w-screen-xl my-auto px-4 h-[90vh] flex justify-center items-center">
 				<div className="mx-auto max-w-3xl text-center">
 					<h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
 						Upload, Save & Share your files easily on one place.
